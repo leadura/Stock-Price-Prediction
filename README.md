@@ -96,6 +96,7 @@ Stock Market Analysis /
     ```
     python app.py
     ```
+    ```
     The backend will run at: http://127.0.0.1:5000
 
 ### 2️⃣ Frontend Setup
@@ -114,6 +115,7 @@ Stock Market Analysis /
     bash
     ```
     npm run dev
+    ```
     ```
     The frontend will run at: http://localhost:5173
 
