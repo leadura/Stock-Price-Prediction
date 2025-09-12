@@ -20,7 +20,17 @@ This project is an AI-powered stock market analysis dashboard that predicts next
 
 🔗 [Features](#features) • [Project Structure](#project-structure) • [Tech Stack](#tech-stack) • [Setup & Installation](#setup--installation) • [How It Works](#how-it-works) • [Applications](#applications) • [Limitations](#limitations) • [Future Enhancements](#future-enhancements) • [References](#references) • [Author](#author)
 
-</div>
+</div> 
+
+### Dashboard Overview  
+![Dashboard Overview](https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_1.png?raw=true)  
+
+### Search & Prediction 
+<p align="center">
+  <img src="https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_Search.png?raw=true" alt="Search" width="48%" />
+  <img src="https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_Prediction.png?raw=true" alt="Prediction" width="48%" />
+</p>
+
 
 ## 🚀 Features
 
