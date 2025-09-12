@@ -17,10 +17,18 @@ This project is an AI-powered stock market analysis dashboard that predicts next
 </p>
 
 <div align="center">
-
-🔗 [Features](#features) • [Project Structure](#project-structure) • [Tech Stack](#tech-stack) • [Setup & Installation](#setup--installation) • [How It Works](#how-it-works) • [Applications](#applications) • [Limitations](#limitations) • [Future Enhancements](#future-enhancements) • [References](#references) • [Author](#author)
-
-</div> 
+🔗
+<a href="#features">Features</a> •
+<a href="#project-structure">Project Structure</a> •
+<a href="#tech-stack">Tech Stack</a> •
+<a href="#setup-and-installation">Setup &amp; Installation</a> •
+<a href="#how-it-works">How It Works</a> •
+<a href="#applications">Applications</a> •
+<a href="#limitations">Limitations</a> •
+<a href="#future-enhancements">Future Enhancements</a> •
+<a href="#references">References</a> •
+<a href="#author">Author</a>
+</div>
 
 ### Dashboard Overview  
 ![Dashboard Overview](https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_1.png?raw=true)  
@@ -32,6 +40,8 @@ This project is an AI-powered stock market analysis dashboard that predicts next
 </p>
 
 
+<!-- anchors for TOC links -->
+<a id="features"></a>
 ## 🚀 Features
 
 *   *🔮 AI Predictions*: Forecasts the next-day stock price using an LSTM model.
@@ -45,6 +55,7 @@ This project is an AI-powered stock market analysis dashboard that predicts next
     *   Japan → 7203.T (Toyota), 6758.T (Sony)
     *   U.K. → HSBA.L (HSBC)
 
+<a id="project-structure"></a>
 ## 🏗 Project Structure
 ```
 
@@ -72,11 +83,13 @@ Stock Market Analysis /
     ├── tailwind.config.ts
     └── vite.config.ts
 ```
+<a id="tech-stack"></a>
 ## ⚙ Tech Stack
 
 *   *Backend:* Python + Flask, TensorFlow / Keras (LSTM model), Yahoo Finance API (yFinance)
 *   *Frontend:* React + TypeScript, TailwindCSS, Recharts (visualizations)
 
+<a id="setup-and-installation"></a>
 ## 🔧 Setup & Installation
 
 ### 1️⃣ Backend Setup
@@ -119,6 +132,7 @@ Stock Market Analysis /
     ```
     The frontend will run at: http://localhost:5173
 
+<a id="how-it-works"></a>
 ## 📊 How It Works
 
 1.  The user searches for a stock by its company name or ticker symbol (e.g., Apple → AAPL).
@@ -128,18 +142,21 @@ Stock Market Analysis /
 5.  The LSTM model predicts the next-day stock price and provides the last 100 days of historical data.
 6.  The frontend displays the predicted price, compares it to the last known price (showing the percentage change), and visualizes the historical data with a chart.
 
+<a id="applications"></a>
 ## 📌 Applications
 
 *   *📉 Investors*: Gain quick insights into potential stock movements.
 *   *🏦 Institutions*: Utilize as a research tool for market forecasting.
 *   *📚 Academics*: Serve as a practical demonstration of AI applications in finance.
 
-## ⚠ Limitations
+<a id="applications"></a>
+## 📌 Applications
 
 *   Predictions are limited to the next day only.
 *   The model does not incorporate sentiment analysis from news or social media.
 *   Prediction accuracy can vary depending on market volatility.
 
+<a id="future-enhancements"></a>
 ## 🔮 Future Enhancements
 
 *   *💱 Multi-currency support*: Enable conversions between currencies (e.g., USD ↔ INR).
@@ -147,12 +164,21 @@ Stock Market Analysis /
 *   *☁ Cloud deployment*: Deploy the application using Docker.
 *   *📊 Portfolio analysis*: Add features for portfolio tracking and personalized alerts.
 
+<a id="references"></a>
 ## 📝 References
 
 *   Yahoo Finance API
 *   Keras Documentation
 *   Research papers on LSTM for financial forecasting
 
-## 👨‍💻 Author
+<a id="author"></a>
+## 👨‍💻 Author  
 
-Harshit Waldia
+**Harshit Waldia**  
+
+AI & Machine Learning enthusiast with a strong focus on deep learning, NLP, and data-driven applications.  
+Passionate about building innovative projects that connect technology with real-world impact.  
+
+📌 GitHub: [HarshitWaldia](https://github.com/HarshitWaldia)  
+🔗 LinkedIn: [Harshit Waldia](https://www.linkedin.com/in/harshit-waldia)  
+
